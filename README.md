@@ -7,7 +7,7 @@ It is important to note that I am studying and a lot of solutions are greatly in
 ## This project consists of several modules:
 - It parses CLI options and arguments using getopt.
 - Binary tree data structure implementation with next and child pointers for managing todo list with sub-items.
-- A custom serialization for this tree data structure that pretty much resembles json/
+- A custom serialization for this tree data structure that pretty much resembles json.
 - A custom lexer and parser for deserialization of strings in this format (Although the parser is not a generalized solution and works only for this specific purpose).
 - Dinamic array and StringBuilder implementation.
 
