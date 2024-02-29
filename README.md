@@ -24,12 +24,7 @@ todo
 
 #### To add a new entry to a current list run: 
  ```bash
-todo [entry-string]
-```
-
-#### To use options run:
- ```bash
-todo [options] <option-arguments>
+todo entry sample
 ```
 
 #### To display options and usage run:
