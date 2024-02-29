@@ -23,18 +23,18 @@ const char *get_token_type_name(Token_Type type) {
             return "open bracket";
         case TOKEN_BRACKET_CLOSE:
             return "close bracket";
-		case TOKEN_BRACE_OPEN: 
-			return "open brace";
-		case TOKEN_BRACE_CLOSE:
-			return "close brace";
+	case TOKEN_BRACE_OPEN: 
+	    return "open brace";
+	case TOKEN_BRACE_CLOSE:
+	    return "close brace";
         case TOKEN_INTEGER:
             return "integer token";
-		case TOKEN_STRING: 
-			return "string literal";
-		case TOKEN_BOOL:
-			return "bool token";
-		case TOKEN_COLON:
-			return "colon token";
+	case TOKEN_STRING: 
+	    return "string literal";
+	case TOKEN_BOOL:
+	    return "bool token";
+	case TOKEN_COLON:
+	    return "colon token";
         default:
             puts("get_token_type_name: unexpected Token_Type");
             break;
@@ -50,7 +50,7 @@ Lexer lexer_new(const char *content, size_t content_len) {
 }
 
 bool is_integer_start(char c) { 
-	return isdigit(c) && c != '0';
+    return isdigit(c) && c != '0';
 }
 
 bool is_symbol_start(char c) {
