@@ -22,23 +22,23 @@ const char *get_token_type_name(Token_Type type) {
         case TOKEN_BRACKET_OPEN: 
             return "open bracket";
         case TOKEN_BRACKET_CLOSE:
-            return "close bracket";
-	case TOKEN_BRACE_OPEN: 
-	    return "open brace";
-	case TOKEN_BRACE_CLOSE:
-	    return "close brace";
-        case TOKEN_INTEGER:
-            return "integer token";
-	case TOKEN_STRING: 
-	    return "string literal";
-	case TOKEN_BOOL:
-	    return "bool token";
-	case TOKEN_COLON:
-	    return "colon token";
-        default:
-            puts("get_token_type_name: unexpected Token_Type");
-            break;
-    }
+			return "close bracket";
+		case TOKEN_BRACE_OPEN: 
+			return "open brace";
+		case TOKEN_BRACE_CLOSE:
+			return "close brace";
+		case TOKEN_INTEGER:
+			return "integer token";
+		case TOKEN_STRING: 
+			return "string literal";
+		case TOKEN_BOOL:
+			return "bool token";
+		case TOKEN_COLON:
+			return "colon token";
+		default:
+			puts("get_token_type_name: unexpected Token_Type");
+			break;
+	}
     return NULL;
 }
 
